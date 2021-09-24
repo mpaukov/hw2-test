@@ -1,0 +1,71 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --tird-text-color: #2196f3;
+  --bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+
+/* Отключение точек в списках */
+.list {
+  list-style: none;
+}
+
+/* отключение подчеркивания в ссылках */
+.link {
+  text-decoration: none;
+}
+
+/* Logo */
+nav .logo {
+  color: #000000;
+}
+footer .logo {
+  color: var(--bg-color);
+}
+.logo {
+  text-decoration: none;
+}
+.logo > span {
+  color: var(--tird-text-color);
+}
+
+/* Навигация */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.nav-contacts .link {
+  color: var(--secondary-text-color);
+}
+
+.link:hover,
+.link:focus,
+.link.current {
+  color: var(--tird-text-color);
+}
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--bg-color);
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: var(--tird-text-color);
+  color: var(--bg-color);
+}
+
+.section-title {
+  color: var(--primary-text-color);
+  font-size: 36px;
+}
