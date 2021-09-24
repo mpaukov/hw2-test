@@ -8,6 +8,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
   font-size: 14px;
 }
 
@@ -19,6 +20,7 @@ body {
 /* отключение подчеркивания в ссылках */
 .link {
   text-decoration: none;
+  font-weight: 500;
 }
 
 /* Logo */
@@ -29,6 +31,8 @@ footer .logo {
   color: var(--bg-color);
 }
 .logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   text-decoration: none;
 }
 .logo > span {
@@ -36,6 +40,7 @@ footer .logo {
 }
 
 /* Навигация */
+
 .site-nav .link {
   color: var(--primary-text-color);
 }
