@@ -1,12 +1,12 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --tird-text-color: #2196f3;
-  --bg-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -28,7 +28,7 @@ nav .logo {
   color: #000000;
 }
 footer .logo {
-  color: var(--bg-color);
+  color: var(--primary-bg-color);
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -36,7 +36,7 @@ footer .logo {
   text-decoration: none;
 }
 .logo > span {
-  color: var(--tird-text-color);
+  color: var(--accent-color);
 }
 
 /* Навигация */
@@ -52,7 +52,7 @@ footer .logo {
 .link:hover,
 .link:focus,
 .link.current {
-  color: var(--tird-text-color);
+  color: var(--accent-color);
 }
 
 /* hero */
@@ -61,16 +61,41 @@ footer .logo {
 }
 
 .hero-title {
-  color: var(--bg-color);
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 .button {
-  background-color: var(--tird-text-color);
-  color: var(--bg-color);
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 .section-title {
   color: var(--primary-text-color);
   font-size: 36px;
+}
+
+/* Секция особенности */
+
+.list-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.section-features .section-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
