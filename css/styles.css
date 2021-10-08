@@ -31,7 +31,7 @@ nav .logo {
 }
 
 footer .logo {
-  color: var(--primary-bg-color);
+  color: #ffffff;
 }
 
 .logo {
@@ -143,17 +143,14 @@ footer .logo {
 
 footer {
   background-color: #2f303a;
+  line-height: 1.71;
 }
 
 address {
   font-style: normal;
-  line-height: 1.71;
-}
-
-.address {
   color: #ffffff;
 }
 
-address .link {
+footer .link {
   color: rgba(255, 255, 255, 0.6);
 }
