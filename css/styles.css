@@ -14,6 +14,15 @@ html {
 *::after {
   box-sizing: inherit;
 }
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 body {
   margin: 0;
@@ -100,7 +109,7 @@ footer .logo {
 
 .hero-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 
   color: #ffffff;
 
